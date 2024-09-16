@@ -79,6 +79,26 @@ Linux, Windows, macOS and FreeBSD are supported. Docker images are also availabl
 
 For everyone else, [see our documentation](https://ocrmypdf.readthedocs.io/en/latest/installation.html) for installation steps.
 
+### Using a Virtual Environment
+
+It's recommended to use a virtual environment to manage OCRmyPDF and its dependencies. Here's how to create and activate a virtual environment:
+
+
+```bash
+python3 -m venv myproject_env
+source myproject_env/bin/activate
+```
+
+
+After activating the virtual environment, you can install OCRmyPDF using pip:
+
+```bash
+pip install ocrmypdf
+```
+
+Remember to activate the virtual environment each time you want to use OCRmyPDF.
+
+
 ## Languages
 
 OCRmyPDF uses Tesseract for OCR, and relies on its language packs. For Linux users, you can often find packages that provide language packs:
